@@ -18,7 +18,7 @@ body {
 
 /* Header/Title styling */
 .form-title {
-    color: #008000; /* Green color for the main title */
+    color: #3641bb; /* Green color for the main title */
     text-align: center;
     margin-bottom: 5px;
 }
@@ -111,7 +111,7 @@ small {
 }
 
 .submit-btn {
-    background-color: #008000; /* Distinctive green color */
+    background-color: #090080; /* Distinctive green color */
     color: white;
     padding: 12px 30px;
     border: none;

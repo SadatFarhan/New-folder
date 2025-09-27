@@ -9,6 +9,16 @@
 <body>
 
     <div class="form-container">
+
+         <nav style="inset-inline: 0; text-align: center; background-color: lightgray; padding: 10px;    ">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="services.html">Services</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="portfolio.html">Portfolio</a>
+    </nav>
+
+
         <h1 class="form-title">Student Registration Form</h1>
         <p class="form-subtitle">Please Enter Relevant Information</p>
 
@@ -431,7 +441,7 @@
                 <div class="form-group">
                     <label>Gender</label>
                     <div class="radio-group">
-                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <input type="radio" id="male" name="gender" value="male">
                         <label for="male">Male</label>
                         <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label>
@@ -462,7 +472,7 @@
                     <div class="radio-group">
                         <input type="radio" id="ph-yes" name="handicapped" value="yes">
                         <label for="ph-yes">Yes</label>
-                        <input type="radio" id="ph-no" name="handicapped" value="no" checked>
+                        <input type="radio" id="ph-no" name="handicapped" value="no" >
                         <label for="ph-no">No</label>
                     </div>
                 </div>
@@ -471,7 +481,7 @@
                     <div class="radio-group">
                         <input type="radio" id="comp-yes" name="computer" value="yes">
                         <label for="comp-yes">Yes</label>
-                        <input type="radio" id="comp-no" name="computer" value="no" checked>
+                        <input type="radio" id="comp-no" name="computer" value="no" >
                         <label for="comp-no">No</label>
                     </div>
                 </div>
@@ -480,7 +490,7 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" value="oihrfkhasan" required>
+                    <input type="email" id="email" name="email" placeholder="employe@gmail.com" required>
                 </div>
                 <div class="form-group">
                     <label for="photograph">Photograph</label>
@@ -492,7 +502,7 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" value="01xxxxxxxxx" required>
+                    <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx" required>
                 </div>
                 <div class="form-group">
                     <label for="signature">Signature</label>
@@ -505,9 +515,10 @@
                 <button type="submit" class="submit-btn ">Submit Data</button>
             </div>
         </form>
+
         <footer>
-    <p>&copy; 2025 Student Registration. All rights reserved by Farhan Sadat</p>
-</footer>
+            <p>&copy; 2025 Student Registration. All rights reserved by Farhan Sadat</p>
+        </footer>
     </div>
 
 </body>
